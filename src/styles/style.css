@@ -1,5 +1,4 @@
 body {
-    max-width: 768px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -30,7 +29,7 @@ header {
 .header-nav {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 }
 
 .drop-down {
@@ -69,7 +68,7 @@ header {
     gap: 16px;
 }
 
-.header-menu > h6 {
+.header-menu>h6 {
     font-weight: 600;
 }
 
@@ -82,7 +81,7 @@ header {
 .blog-list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px 0px;
 }
 
 .blog {
@@ -94,10 +93,11 @@ header {
 .blog-text {
     display: flex;
     flex-direction: column;
+    padding: 8px 0px;
     gap: 8px;
 }
 
-.blog-text > a {
+.blog-text>a {
     font-size: 14px;
     text-decoration: underline;
 }
@@ -112,7 +112,7 @@ header {
     font-weight: 600;
 }
 
-.blog-content > p {
+.blog-content>p {
     font-size: 14px;
 }
 
@@ -145,7 +145,7 @@ main {
 }
 
 .hero-text > h1 {
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -158,13 +158,13 @@ main {
     gap: 16px;
 }
 
-.buttons-hero > button {
+.buttons-hero>button {
     padding: 10px 20px;
     background-color: black;
     color: white;
 }
 
-.buttons-hero > .btn-secondary {
+.buttons-hero>.btn-secondary {
     background-color: transparent;
     border: 1px solid black;
     color: black;
@@ -173,19 +173,19 @@ main {
 .hero-carousel {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
     overflow: hidden;
 }
 
 .hero-images {
     display: flex;
-    gap: 12px;
+    gap: 16px;
     justify-content: center;
 }
 
-.hero-images > img {
-    width: 
-    206px;
+.hero-images>img {
+    width:
+        206px;
 }
 
 footer {
@@ -220,7 +220,7 @@ footer {
     gap: 24px;
 }
 
-.footer-content-top > img {
+.footer-content-top >img {
     width: 84px;
     height: 36px;
 }
@@ -233,7 +233,7 @@ footer {
 }
 
 .footer-text > h2 {
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -242,13 +242,13 @@ footer {
     gap: 16px;
 }
 
-.buttons-footer > button {
+.buttons-footer>button {
     padding: 10px 20px;
     background-color: black;
     color: white;
 }
 
-.buttons-footer > .btn-secondary {
+.buttons-footer>.btn-secondary {
     background-color: transparent;
     color: black;
     border: 1px solid black;
