@@ -7,30 +7,34 @@ body {
 /* HEADER */
 
 header {
-    max-width: 375px;
-    border: 1px solid red;
-    padding: 0px 0px 96px 0px;
+    height: 505px;
 }
 
-.header-top {
+.header-container {
     height: 72px;
-    padding: 8px 20px;
+    padding: 24px 64px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
 .header-nav {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     gap: 32px;
 }
 
 .drop-down {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 4px;
 }
 
@@ -41,7 +45,6 @@ header {
 
 .buttons {
     display: flex;
-    flex-direction: column;
     gap: 16px;
 }
 
@@ -62,20 +65,13 @@ header {
 
 .header-mega-menu {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    gap: 16px;
-    padding: 8px 20px;
-}
 
-.header-content-menu {
-    display: flex;
-    padding: 24px 0px;
-    flex-direction: column;
-    gap: 32px;
+    padding: 24px 64px;
 }
 
 .header-menu {
+    width: 221px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -107,14 +103,9 @@ header {
 
 .blog {
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 8px 0px;
     gap: 24px;
-}
-
-.blog > img {
-    width: 100%;
 }
 
 .blog-text {
@@ -145,12 +136,7 @@ header {
 /* HERO HEADER */
 
 main {
-    max-width: 375px;
-    border: 1px solid rgb(0, 153, 255);
-}
-
-.hero-header {
-    max-width: 375px;
+    height: 1220px;
 }
 
 .hero-content {
@@ -160,30 +146,13 @@ main {
     text-align: center;
     gap: 32px;
 
-    padding: 64px 20px;
+    padding: 112px 64px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     gap: 24px;
-}
-
-.buttons-hero {
-    display: flex;
-    gap: 16px;
-}
-
-.buttons-hero > button {
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-}
-
-.buttons-hero > .btn-secondary {
-    background-color: transparent;
-    color: black;
-    border: 1px solid black;
 }
 
 .hero-text > h1 {
@@ -197,10 +166,9 @@ main {
 
 
 .hero-carousel {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 64px 0px;
+
     gap: 16px;
 }
 
@@ -211,16 +179,11 @@ main {
     justify-content: center;
 }
 
-.hero-images > img {
-    width: 206px;
-}
-
 /* FOOTER */
 
 footer {
-    max-width: 375px;
-    border: 1px solid rgb(96, 190, 52);
-    padding: 48px 20px;
+    height: 555px;
+    padding: 80px 64px;
 
     display: flex;
     flex-direction: column;
@@ -228,14 +191,12 @@ footer {
 }
 
 .footer-card {
-    padding: 32px;
+    padding: 48px;
     border: 1px solid black;
 }
 
 .footer-container {
     display: flex;
-    gap: 48px;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -268,33 +229,11 @@ footer {
     font-weight: 700;
 }
 
-.buttons-footer {
-    display: flex;
-    gap: 16px;
-}
-
-.buttons-footer > button {
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-}
-
-.buttons-footer > .btn-secondary {
-    background-color: transparent;
-    color: black;
-    border: 1px solid black;
-}
-
 .footer-links {
     display: flex;
-    gap: 32px;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.footer-link-list {
-    display: flex;
-    flex-direction: column;
+    align-items: end;
 }
 
 .footer-nav {
@@ -320,15 +259,11 @@ footer {
 
 .footer-credits {
     display: flex;
-    padding: 0px 0px 16px 0px;
-    gap: 24px;
-    flex-direction: column;
     justify-content: space-between;
 }
 
 .footer-nav-credits {
     display: flex;
-    flex-direction: column;
     gap: 24px;
 }
 
