@@ -1,4 +1,4 @@
-<h1 align="center">📱 ADO 02</h1>
+<h1 align="center"> ADO 02</h1>
 
 <p align="center">
   Projeto acadêmico focado na adaptação responsiva da interface desenvolvida na ADO 01.
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Este repositório foi desenvolvido como continuidade da ADO 01, com o objetivo de tornar a interface totalmente responsiva para diferentes tamanhos de tela.
 
@@ -20,7 +20,7 @@ O projeto segue a abordagem mobile first, aplicando media queries com `min-width
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 * Aplicar conceitos de responsividade em interfaces web
 * Praticar a abordagem mobile first
@@ -31,7 +31,7 @@ O projeto segue a abordagem mobile first, aplicando media queries com `min-width
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=html,css,figma,vscode" />
@@ -39,7 +39,7 @@ O projeto segue a abordagem mobile first, aplicando media queries com `min-width
 
 ---
 
-## 📱 Responsividade
+## Responsividade
 
 O projeto utiliza breakpoints para adaptação da interface em diferentes resoluções:
 
@@ -56,7 +56,7 @@ As adaptações incluem:
 
 ---
 
-## 💡 Especificações técnicas
+## Especificações técnicas
 
 * Desenvolvimento baseado no projeto da ADO 01
 * CSS puro
