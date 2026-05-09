@@ -218,8 +218,9 @@ main {
 /* FOOTER */
 
 footer {
-    height: 555px;
-    padding: 80px 64px;
+    max-width: 375px;
+    border: 1px solid rgb(96, 190, 52);
+    padding: 48px 20px;
 
     display: flex;
     flex-direction: column;
@@ -227,12 +228,14 @@ footer {
 }
 
 .footer-card {
-    padding: 48px;
+    padding: 32px;
     border: 1px solid black;
 }
 
 .footer-container {
     display: flex;
+    gap: 48px;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -265,11 +268,33 @@ footer {
     font-weight: 700;
 }
 
+.buttons-footer {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons-footer > button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.buttons-footer > .btn-secondary {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
 .footer-links {
     display: flex;
+    gap: 32px;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+}
+
+.footer-link-list {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-nav {
@@ -295,11 +320,15 @@ footer {
 
 .footer-credits {
     display: flex;
+    padding: 0px 0px 16px 0px;
+    gap: 24px;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .footer-nav-credits {
     display: flex;
+    flex-direction: column;
     gap: 24px;
 }
 
