@@ -17,7 +17,7 @@
         display: none;
     }
 
-    #itens, #itens02, #itens03 {
+    #itens, #itens03 {
         display: flex !important;
     }
 
@@ -37,7 +37,7 @@
     }
 
     .buttons-02 {
-        display: none;
+        display: none !important;
     }
 
     .header-mega-menu {
@@ -86,7 +86,7 @@
         display: none;
     }
 
-    #itens, #itens02, #itens03 {
+    #itens, #itens03 {
         display: flex !important;
     }
 
