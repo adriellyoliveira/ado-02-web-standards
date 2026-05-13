@@ -18,8 +18,12 @@
         display: none;
     }
 
-    #itens, #itens03 {
+    #itens {
         display: flex !important;
+    }
+
+    #itens03 {
+        display: none;
     }
 
     .header-nav {
@@ -96,8 +100,12 @@
         display: none;
     }
 
-    #itens, #itens03 {
+    #itens {
         display: flex !important;
+    }
+
+    #itens03 {
+        display: none;
     }
 
     .header-content {
