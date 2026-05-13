@@ -34,7 +34,7 @@
                     <a href="">Link Three</a>
                     <div class="drop-down">
                         <a href="">Link Four</a>
-                        <button class="btn-drop-down">
+                        <button class="btn-drop-down" onclick="clickMegaMenu()">
                             <img src="./src/assets/images/chevron-down.svg" alt="">
                         </button>
                     </div>
@@ -263,6 +263,14 @@
             } else {
                 itens.style.display = 'flex'
                 itens02.style.display = 'flex'
+                itens03.style.display = 'flex'
+            }
+        }
+
+        function clickMegaMenu() {
+            if (itens03.style.display == 'flex') {
+                itens03.style.display = 'none'
+            } else {
                 itens03.style.display = 'flex'
             }
         }
